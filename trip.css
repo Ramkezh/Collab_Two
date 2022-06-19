@@ -4,13 +4,22 @@
     margin: auto;
     text-decoration: none;
     margin: 0px;
+    text-align: justify;
+}
+form{
+    margin: auto;
 }
 #layout{
-    margin-top: 380px;
-    margin-left: 140px;
-    margin-right: 140px;
-    padding-top: 70px;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1180px;
+    height: auto;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    margin-left: 160px;
 }
 
 
@@ -140,9 +149,11 @@ div{
 }
 #MainBg{
     position: absolute;
-    width:1525px;
+    margin-left: -2px;
+    width:1520px;
     height: 400px;
     object-fit: cover;
+    margin: 0px;
 }
 #tagline1{
     position: relative;
@@ -162,8 +173,14 @@ div{
 
 
 #vs-footer{
-    padding: 12px 8px;
     margin: 0px;
+    background-color: white;
+    width:1520px;
+    margin-top: -48px;
+    padding-top: 50PX;
+}
+#vs-footer>div{
+    margin-left: -100px;
 }
 #vs-footer hr{
     border: 0;
@@ -175,24 +192,21 @@ div{
     padding: 0;
 }
 #vs-footer-con{
-    /* width: 1224px; */
-    /* margin: auto; */
     width: auto;
-    margin-left: -20px;
+    margin: auto;
     padding: 24px 12px;
-
 }
 #vs-footer-ul{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-
 }
 
 #vs-footer-ul li{
+    
     list-style: none;
     padding-top: 8px;
-    width: 240.4px;
-    margin-left: -100px;
+    width: 190px;
+    
 }
 #vs-footer-ul li>div:hover{
     text-decoration: underline;
@@ -205,8 +219,6 @@ div{
     text-decoration: none;
     font-size: 12px;
     color:#007E8F;
-    margin-left: -100px;
-    padding-right: 30px;
 }
 #vs-bottom-ul{
     display: flex;
@@ -221,3 +233,58 @@ div{
     font-size: 12px;
     color: #616161;
 }
+#on{
+    margin-left: -160px;
+    text-align: justify;
+}
+
+
+/* nav */
+
+
+#dashboard{
+    margin-top: 0px;
+    margin: 0px;
+    height: 100px;
+    width:1520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #00253C;
+    position: static;
+    margin-bottom: 380px;
+    margin-left: -8px;
+}
+#logo1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    width: 100%;
+    background-color: #00253C;
+}
+#SignIn{
+    margin-right: 30px;
+    justify-content: right;
+    margin-right: 5%;
+    padding-top: 20px;
+    color: #00B1FF;
+    text-decoration: none;
+    background-color: #00253C;
+}
+#options{
+    display: flex;
+    margin-left: 130px;
+    background-color: #00253C;
+}
+.option{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #00B1FF;
+    background-color: #00253C;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    background-color: #00253C;
+    }

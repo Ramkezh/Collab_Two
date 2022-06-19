@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #00253C;
+    width: 1525px;
 }
 #logo1{
     display: flex;
@@ -119,7 +120,8 @@ button:hover{
     margin-left: 100px;
 }
 #newsboard{
-    height: max-content;
+    height: fit-content;
+    width: max-content;
     margin-left: 120px;
     margin-right: 120px;
     background-color: white;
@@ -293,7 +295,7 @@ img{
 #app_box{
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
+    margin-left: 350px;
     width: 800px;
     height: 75px;
     border: 1px solid black;
@@ -342,6 +344,7 @@ img{
 #vs-footer{
     padding: 12px 8px;
     margin: 0px;
+    width: 1525px;
 }
 #vs-footer hr{
     border: 0;

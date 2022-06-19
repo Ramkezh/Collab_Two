@@ -6,8 +6,8 @@
     margin-left: 160px;
     margin-right: 160px;
     background-color: white;
-    height: 1200px;
-    width: auto;
+    height: auto;
+    width: max-content;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 365px;
@@ -162,6 +162,7 @@ span{
 }
 #MainBg{
     position: absolute;
+    margin-left: -1px;
     width:1515px;
     height: 400px;
     object-fit: cover;
@@ -237,3 +238,54 @@ span{
     font-size: 12px;
     color: #616161;
 }
+
+
+/* nav */
+
+
+#dashboard{
+    margin-top: 0px;
+    margin: 0px;
+    height: 100px;
+    width: 1515px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #00253C;
+    position: static;
+    margin-bottom: 380px;
+    margin-left: -8px;
+}
+#logo1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    width: 100%;
+    background-color: #00253C;
+}
+#SignIn{
+    margin-right: 30px;
+    justify-content: right;
+    margin-right: 5%;
+    padding-top: 20px;
+    color: #00B1FF;
+    text-decoration: none;
+    background-color: #00253C;
+}
+#options{
+    display: flex;
+    margin-left: 130px;
+    background-color: #00253C;
+}
+.option{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #00B1FF;
+    background-color: #00253C;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    background-color: #00253C;
+    }
