@@ -356,7 +356,6 @@ img{
     width: 1224px;
     margin: auto;
     padding: 24px 12px;
-    /* background-color: #f5f5f5; */
 
 }
 #vs-footer-ul{
@@ -370,7 +369,6 @@ img{
     list-style: none;
     padding-top: 8px;
     width: 230.4px;
-    
 }
 #vs-footer-ul li>div:hover{
     text-decoration: underline;
@@ -383,6 +381,7 @@ img{
     text-decoration: none;
     font-size: 12px;
     color:#007E8F;
+    background-color: #EDEDED;
 }
 #vs-bottom-ul{
     display: flex;

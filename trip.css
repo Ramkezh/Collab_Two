@@ -98,8 +98,7 @@ div{
     background-color: #EDEDED;
 }
 #IMAGE{
-    margin-left: 70px;
-    margin-right: 140px;
+     margin-left: 70px;
 }
 #Para{
     margin-left: 140px;
@@ -176,10 +175,11 @@ div{
     padding: 0;
 }
 #vs-footer-con{
-    width: 1224px;
-    margin: auto;
+    /* width: 1224px; */
+    /* margin: auto; */
+    width: auto;
+    margin-left: -20px;
     padding: 24px 12px;
-    /* background-color: #f5f5f5; */
 
 }
 #vs-footer-ul{
@@ -189,11 +189,10 @@ div{
 }
 
 #vs-footer-ul li{
-    
     list-style: none;
     padding-top: 8px;
-    width: 230.4px;
-    
+    width: 240.4px;
+    margin-left: -100px;
 }
 #vs-footer-ul li>div:hover{
     text-decoration: underline;
@@ -206,6 +205,8 @@ div{
     text-decoration: none;
     font-size: 12px;
     color:#007E8F;
+    margin-left: -100px;
+    padding-right: 30px;
 }
 #vs-bottom-ul{
     display: flex;
